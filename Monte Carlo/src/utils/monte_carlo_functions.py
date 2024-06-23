@@ -5,9 +5,7 @@ About: functions that do a monte carlo simulation
 and return the results for each trial
 """
 import numpy as np
-from utils.calc_L2_squared import calc_L2_norm_squared
-from utils.update_vector_rand import update_vector_randomly
-from utils.stastical_functions import *
+from .create_random_vector import random_vector_T_steps
 from scipy import stats
 from scipy import optimize
 
